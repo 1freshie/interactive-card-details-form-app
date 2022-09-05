@@ -1,0 +1,109 @@
+label {
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+input {
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-color: lightgray;
+  border-radius: 10px;
+  font-family: 'Space Grotesk';
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  padding: 8px;
+}
+
+button {
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 100%;
+  color: white;
+  background: hsl(278, 68%, 11%);
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* input:focus {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to left,
+    hsl(249, 99%, 64%),
+    hsl(278, 94%, 30%)
+  );
+} */
+
+.App {
+  max-width: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  /* align-items: center; */
+  margin: 0;
+}
+
+.background {
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.background img {
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.form {
+  display: block;
+  /* flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; */
+  margin-left: 25%;
+  width: 30%;
+  height: 40%;
+}
+
+.subform-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  /* width: 50%; */
+  width: 100%;
+}
+
+/* .date-container label {
+  margin-bottom: 5px;
+} */
+
+.date__input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date__input-container input {
+  margin-right: 8px;
+}
+
+.cvc-container {
+  width: 100%;
+  margin-left: 15px;
+}
